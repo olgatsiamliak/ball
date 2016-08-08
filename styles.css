@@ -1,0 +1,22 @@
+#container {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	background: #CCCCCC;
+	margin: 1.5em auto;
+	box-sizing: content-box;
+	overflow: hidden;
+}
+#ball {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	margin-bottom: -13px;
+	margin-left: -13px;
+	border-radius: 50%;
+	background: #FF0000;
+	border: 1px solid #000000;
+	pointer-events: none;
+}
